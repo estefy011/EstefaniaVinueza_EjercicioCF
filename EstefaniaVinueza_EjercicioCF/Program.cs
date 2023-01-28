@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using EstefaniaVinueza_EjercicioCF.Data;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EstefaniaVinueza_EjercicioCFContext>(options =>
