@@ -4,7 +4,7 @@
 
 namespace EstefaniaVinueza_EjercicioCF.Migrations
 {
-    public partial class Cambio1 : Migration
+    public partial class CambioPizza : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,6 +16,7 @@ namespace EstefaniaVinueza_EjercicioCF.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     WithCheese = table.Column<bool>(type: "bit", nullable: false),
+                    WithTomatoes = table.Column<bool>(type: "bit", nullable: false),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>

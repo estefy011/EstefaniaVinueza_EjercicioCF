@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EstefaniaVinueza_EjercicioCF.Migrations
 {
     [DbContext(typeof(EstefaniaVinueza_EjercicioCFContext))]
-    [Migration("20221026143748_Cambio2")]
-    partial class Cambio2
+    [Migration("20230128175803_CambioPizza")]
+    partial class CambioPizza
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
