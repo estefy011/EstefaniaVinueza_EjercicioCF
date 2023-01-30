@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,8 +8,11 @@ using EstefaniaVinueza_EjercicioCF.Models;
 namespace EstefaniaVinueza_EjercicioCF.Controllers
 {
     public class PizzaController : Controller
+        
+        
     {
         private readonly EstefaniaVinueza_EjercicioCFContext _context;
+        internal readonly int? id;
 
         public PizzaController(EstefaniaVinueza_EjercicioCFContext context)
         {
